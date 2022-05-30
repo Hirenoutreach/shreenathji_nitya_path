@@ -17,8 +17,13 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.amber[200],
         primarySwatch: Colors.amber,
         textTheme: const TextTheme(
+          displaySmall: TextStyle(
+            fontSize: 14,
+            color: Colors.brown,
+            fontWeight: FontWeight.bold,
+          ),
           bodyMedium: TextStyle(
-            fontSize: 15,
+            fontSize: 16,
             color: Colors.brown,
             fontWeight: FontWeight.bold,
           ),
